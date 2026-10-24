@@ -16,3 +16,6 @@ desktop.ini
 # Editor
 .vscode/
 .idea/
+
+# Configuración local con claves — nunca subir
+config.js
