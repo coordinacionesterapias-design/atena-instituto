@@ -1,0 +1,18 @@
+# Claves y configuración sensible
+.env
+*.env
+config_secret.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/

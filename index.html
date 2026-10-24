@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ATENA — Instituto de Aprendizaje Humano, Desarrollo y Tecnología Aplicada</title>
+<meta content="ATENA integra evaluación, acompañamiento, recursos educativos, automatización y tecnología aplicada para convertir el conocimiento en soluciones observables y útiles para la vida cotidiana." name="description"/>
+<meta content="ATENA, aprendizaje humano, evaluación conductual, intervención, terapia, recursos educativos, soluciones digitales, membresías, Perú" name="keywords"/>
+<meta content="ATENA Instituto" name="author"/>
+<!-- Open Graph -->
+<meta content="ATENA — Instituto de Aprendizaje Humano" property="og:title"/>
+<meta content="Evaluación, intervención, recursos y tecnología aplicada para personas, familias, profesionales e instituciones." property="og:description"/>
+<meta content="assets/hero.png" property="og:image"/>
+<meta content="website" property="og:type"/>
+<meta content="es_PE" property="og:locale"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="ATENA — Instituto de Aprendizaje Humano" name="twitter:title"/>
+<meta content="assets/hero.png" name="twitter:image"/>
+<!-- Favicon -->
+<link href="assets/favicon.png" rel="icon" type="image/png"/>
+<link href="assets/favicon.png" rel="apple-touch-icon"/>
+<!-- CSS -->
+<link href="style.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+<!-- ══════════════════════════════════════
+     NAVEGACIÓN
+══════════════════════════════════════ -->
+<nav class="nav" id="nav">
+<div class="container">
+<div class="nav-inner">
+<a class="nav-logo" href="#inicio">
+<img alt="ATENA Instituto" src="assets/logo-atena.png?expires=1795468762&amp;signature=5f45c4284c1c1d28e9432c7aba178050264196ced2c3a56b04a8d804b23c7a1f&amp;kid=prod-250922"/>
+</a>
+<ul class="nav-menu" id="navMenu">
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#recursos">Recursos</a></li>
+<li><a href="#soluciones">Soluciones Digitales</a></li>
+<li><a href="#membresias">Membresías</a></li>
+<li><a href="#nosotros">Nosotros</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+<div class="nav-actions">
+<a class="nav-wa" href="https://wa.me/51916471316" rel="noopener" target="_blank">
+<span>💬</span><span>WhatsApp</span>
+</a>
+<button aria-label="Menú" class="nav-hamburger" id="hamburger">
+<span></span><span></span><span></span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section class="hero" id="inicio">
+<div class="container">
+<div class="hero-inner">
+<div class="hero-content fade-up">
+<div class="hero-eyebrow">
+<span></span>Instituto de Aprendizaje Humano
+        </div>
+<h1 class="hero-title">
+<span class="brand">ATENA</span>
+</h1>
+<p class="hero-subtitle">Desarrollo y Tecnología Aplicada</p>
+<p class="hero-desc">
+          Integramos evaluación, acompañamiento, recursos educativos, automatización y tecnología aplicada para convertir el conocimiento en soluciones observables y útiles para la vida cotidiana.
+        </p>
+<div class="hero-btns">
+<a class="btn btn-primary btn-lg" href="#nosotros">Conocer ATENA</a>
+<button class="btn btn-secondary btn-lg" onclick="abrirChat()">✦ Probar ATENA Conversa</button>
+<a class="btn btn-wa btn-lg" href="https://wa.me/51916471316" rel="noopener" target="_blank">💬 WhatsApp</a>
+</div>
+<div class="hero-chips">
+<span class="chip"><span class="chip-dot"></span>Evaluación</span>
+<span class="chip"><span class="chip-dot"></span>Intervención</span>
+<span class="chip"><span class="chip-dot"></span>Recursos</span>
+<span class="chip"><span class="chip-dot"></span>Tecnología</span>
+</div>
+</div>
+<div class="hero-image fade-up" style="transition-delay:.15s">
+<img alt="ATENA — Aprendizaje, familia y tecnología" loading="eager" src="assets/hero.png?expires=1795468762&amp;signature=155161c99359c1ed09c24df57b00327a96592dc3f2ce8d792da85d7f0240fc90&amp;kid=prod-250922"/>
+<div class="hero-badge">
+<div class="hero-badge-icon">🎯</div>
+<div>
+<div class="hero-badge-text">Soluciones aplicadas</div>
+<div class="hero-badge-sub">Para personas, familias y profesionales</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════
+     SERVICIOS
+══════════════════════════════════════ -->
+<section class="section-alt" id="servicios">
+<div class="container">
+<div class="section-header fade-up">
+<span class="label">Servicios</span>
+<h2>Soluciones para el aprendizaje y el desarrollo</h2>
+<p>Servicios de evaluación, intervención, acompañamiento, orientación y asesoría dirigidos a personas, familias, profesionales e instituciones.</p>
+</div>
+<div class="servicios-inner">
+<div class="servicios-img fade-up">
+<img alt="Servicios ATENA" loading="lazy" src="assets/servicios.png?expires=1795468762&amp;signature=08d7c46cb6c28dad8cdaf0d91811a6f08710ad673ca3ce812e98cd4e9007f9ae&amp;kid=prod-250922"/>
+</div>
+<div class="servicios-lista fade-up" style="transition-delay:.1s">
+<!-- Evaluación -->
+<div class="servicio-card" data-card="">
+<div class="servicio-header" onclick="toggleServicio(this)">
+<div class="servicio-header-left">
+<div class="servicio-icon">🔍</div>
+<h3>Evaluación</h3>
+</div>
+<span class="servicio-arrow">▼</span>
+</div>
+<div class="servicio-body">
+<div class="servicio-body-inner">
+<p>Procesos especializados para identificar necesidades, fortalezas y áreas de desarrollo.</p>
+<ul>
+<li>Evaluación integral, diagnóstica y del desarrollo</li>
+<li>Evaluación conductual, emocional y psicológica</li>
+<li>Evaluación neuropsicológica y de funciones ejecutivas</li>
+<li>TEA, TDAH, Discapacidad Intelectual, TDL</li>
+<li>Trastornos específicos del aprendizaje y comunicación</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Intervención -->
+<div class="servicio-card" data-card="">
+<div class="servicio-header" onclick="toggleServicio(this)">
+<div class="servicio-header-left">
+<div class="servicio-icon">🌱</div>
+<h3>Intervención y Desarrollo de Habilidades</h3>
+</div>
+<span class="servicio-arrow">▼</span>
+</div>
+<div class="servicio-body">
+<div class="servicio-body-inner">
+<p>Programas personalizados para promover repertorios funcionales y habilidades relevantes.</p>
+<ul>
+<li>Terapia de conducta, lenguaje y aprendizaje</li>
+<li>Desarrollo de atención y funciones ejecutivas</li>
+<li>Habilidades sociales y de comunicación</li>
+<li>Habilidades académicas y adaptativas</li>
+<li>Programas de autonomía personal</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Acompañamiento Escolar -->
+<div class="servicio-card" data-card="">
+<div class="servicio-header" onclick="toggleServicio(this)">
+<div class="servicio-header-left">
+<div class="servicio-icon">🏫</div>
+<h3>Acompañamiento Escolar</h3>
+</div>
+<span class="servicio-arrow">▼</span>
+</div>
+<div class="servicio-body">
+<div class="servicio-body-inner">
+<p>Apoyo especializado para favorecer la participación activa del estudiante en contextos educativos.</p>
+<ul>
+<li>Acompañamiento escolar y shadow teacher</li>
+<li>Apoyo dentro del aula</li>
+<li>Seguimiento de objetivos educativos</li>
+<li>Coordinación con familia e institución</li>
+<li>Monitoreo de avances y adaptación de estrategias</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Inclusión Educativa -->
+<div class="servicio-card" data-card="">
+<div class="servicio-header" onclick="toggleServicio(this)">
+<div class="servicio-header-left">
+<div class="servicio-icon">♿</div>
+<h3>Inclusión Educativa y Adecuaciones Curriculares</h3>
+</div>
+<span class="servicio-arrow">▼</span>
+</div>
+<div class="servicio-body">
+<div class="servicio-body-inner">
+<p>Servicios para promover la participación efectiva del estudiante en el contexto escolar.</p>
+<ul>
+<li>Procesos de inclusión educativa</li>
+<li>Adecuaciones y adaptaciones curriculares</li>
+<li>Ajustes razonables y planes de apoyo</li>
+<li>Coordinación con equipos educativos</li>
+<li>Seguimiento institucional</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Familias -->
+<div class="servicio-card" data-card="">
+<div class="servicio-header" onclick="toggleServicio(this)">
+<div class="servicio-header-left">
+<div class="servicio-icon">👨‍👩‍👧</div>
+<h3>Orientación y Trabajo con Familias</h3>
+</div>
+<span class="servicio-arrow">▼</span>
+</div>
+<div class="servicio-body">
+<div class="servicio-body-inner">
+<p>Espacios de apoyo para fortalecer estrategias familiares y promover contextos favorables.</p>
+<ul>
+<li>Orientación familiar y consejería a cuidadores</li>
+<li>Entrenamiento en procedimientos</li>
+<li>Organización de rutinas y manejo cotidiano</li>
+<li>Terapia familiar</li>
+<li>Seguimiento y acompañamiento continuo</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Consultoría -->
+<div class="servicio-card" data-card="">
+<div class="servicio-header" onclick="toggleServicio(this)">
+<div class="servicio-header-left">
+<div class="servicio-icon">💼</div>
+<h3>Consultoría y Asesoría Profesional</h3>
+</div>
+<span class="servicio-arrow">▼</span>
+</div>
+<div class="servicio-body">
+<div class="servicio-body-inner">
+<p>Servicios técnicos para profesionales, instituciones y equipos de trabajo.</p>
+<ul>
+<li>Asesoría técnica y supervisión de casos</li>
+<li>Capacitación y diseño de procedimientos</li>
+<li>Diseño de sistemas de trabajo</li>
+<li>Elaboración de recursos especializados</li>
+<li>Documentación institucional</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="margin-top:8px">
+<div class="modalidades">
+<span class="modalidad"><span class="modalidad-dot"></span>Presencial</span>
+<span class="modalidad"><span class="modalidad-dot"></span>Virtual</span>
+<span class="modalidad"><span class="modalidad-dot"></span>Híbrida</span>
+</div>
+<a class="btn btn-primary" href="https://wa.me/51916471316" rel="noopener" target="_blank">Solicitar orientación</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════
+     RECURSOS Y DIVULGACIÓN
+══════════════════════════════════════ -->
+<section id="recursos">
+<div class="container">
+<div class="section-header fade-up">
+<span class="label">Recursos y Divulgación</span>
+<h2>Conocimiento aplicado para el aprendizaje humano</h2>
+<p>ATENA desarrolla y comparte recursos orientados a transformar conceptos técnicos en herramientas prácticas.</p>
+</div>
+<div class="recursos-grid fade-up">
+<div class="recurso-card">
+<div class="recurso-icon">📖</div>
+<h3>Revista ATENA</h3>
+<p>Publicación semestral con artículos técnicos, casos aplicados, recursos especializados e innovaciones institucionales.</p>
+<a class="recurso-link" href="https://wa.me/51916471316" rel="noopener" target="_blank">Ver Revista →</a>
+</div>
+<div class="recurso-card">
+<div class="recurso-icon">▶️</div>
+<h3>Canal Educativo</h3>
+<p>Videos educativos, análisis de procedimientos, estrategias aplicadas y conversatorios técnicos. Shorts diarios y videos semanales.</p>
+<a class="recurso-link" href="https://www.youtube.com/@AtenaInstituto" rel="noopener" target="_blank">Ver en YouTube →</a>
+</div>
+<div class="recurso-card">
+<div class="recurso-icon">🎙️</div>
+<h3>Podcast ATENA</h3>
+<p>Conversaciones y análisis sobre aprendizaje humano, desarrollo de habilidades, intervención aplicada e innovación.</p>
+<a class="recurso-link" href="https://wa.me/51916471316" rel="noopener" target="_blank">Escuchar →</a>
+</div>
+<div class="recurso-card">
+<div class="recurso-icon">📚</div>
+<h3>Biblioteca Digital</h3>
+<p>Repositorio organizado con infografías, plantillas, checklists, guías prácticas y materiales de apoyo descargables.</p>
+<a class="recurso-link" href="https://wa.me/51916471316" rel="noopener" target="_blank">Explorar →</a>
+</div>
+<div class="recurso-card">
+<div class="recurso-icon">🌐</div>
+<h3>Redes y Comunidad</h3>
+<p>Contenido continuo en YouTube, LinkedIn, Facebook, Instagram, X, Pinterest y Zenodo para profesionales y familias.</p>
+<a class="recurso-link" href="https://www.instagram.com/atena_instituto/" rel="noopener" target="_blank">Seguir →</a>
+</div>
+<div class="recurso-card">
+<div class="recurso-icon">📄</div>
+<h3>Publicaciones y Documentación</h3>
+<p>Artículos, documentos técnicos, manuales, procedimientos y recursos metodológicos de producción institucional.</p>
+<a class="recurso-link" href="https://wa.me/51916471316" rel="noopener" target="_blank">Acceder →</a>
+</div>
+</div>
+<div class="redes-bar fade-up">
+<a class="red-btn yt" href="https://www.youtube.com/@AtenaInstituto" rel="noopener" target="_blank">▶ YouTube</a>
+<a class="red-btn fb" href="https://www.facebook.com/AtenaInstituto.pe" rel="noopener" target="_blank">f Facebook</a>
+<a class="red-btn ig" href="https://www.instagram.com/atena_instituto/" rel="noopener" target="_blank">◎ Instagram</a>
+<a class="red-btn li" href="https://www.linkedin.com/in/atena-instituto/" rel="noopener" target="_blank">in LinkedIn</a>
+<a class="red-btn tw" href="https://x.com/AtenaInstituto" rel="noopener" target="_blank">𝕏 X</a>
+<a class="red-btn pi" href="https://www.pinterest.com/AtenaInstituto/" rel="noopener" target="_blank">P Pinterest</a>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════
+     SOLUCIONES DIGITALES
+══════════════════════════════════════ -->
+<section class="section-alt" id="soluciones">
+<div class="container">
+<div class="section-header fade-up">
+<span class="label">Soluciones Digitales</span>
+<h2>Herramientas para personas, profesionales e instituciones</h2>
+<p>ATENA desarrolla sistemas orientados a optimizar procesos de atención, seguimiento, gestión y comunicación.</p>
+</div>
+<div class="soluciones-audiencias fade-up">
+<div class="audiencia-card">
+<div class="audiencia-icon">👤</div>
+<h3>Para Profesionales Independientes</h3>
+<ul>
+<li>Registro de usuarios e historiales</li>
+<li>Generación de informes</li>
+<li>Gestión documental</li>
+<li>Comunicación con familias</li>
+<li>Automatización de registros y reportes</li>
+<li>Organización administrativa</li>
+</ul>
+</div>
+<div class="audiencia-card">
+<div class="audiencia-icon">🏢</div>
+<h3>Para Centros Especializados</h3>
+<ul>
+<li>Gestión de usuarios y atenciones</li>
+<li>Seguimiento de programas</li>
+<li>Reportes automáticos</li>
+<li>Indicadores de gestión</li>
+<li>Organización de equipos</li>
+<li>Apoyo administrativo y operativo</li>
+</ul>
+</div>
+<div class="audiencia-card">
+<div class="audiencia-icon">🏫</div>
+<h3>Para Instituciones Educativas</h3>
+<ul>
+<li>Seguimiento de estudiantes</li>
+<li>Comunicación con familias</li>
+<li>Gestión de adecuaciones curriculares</li>
+<li>Planes de apoyo individual</li>
+<li>Seguimiento docente</li>
+<li>Automatización de procesos</li>
+</ul>
+</div>
+</div>
+<div class="productos-grid fade-up">
+<!-- ATENA Conversa -->
+<div class="producto-card conversa">
+<span class="producto-badge">✦ Producto Digital</span>
+<h3>ATENA Conversa</h3>
+<p>Asistente virtual para orientación inmediata sobre aprendizaje, desarrollo, crianza y vida cotidiana.</p>
+<ul>
+<li>Conversación natural con inteligencia artificial</li>
+<li>Orientación inmediata y consultas frecuentes</li>
+<li>Acceso a recursos especializados</li>
+<li>Seguimiento de información</li>
+<li>Herramientas digitales de apoyo</li>
+</ul>
+<button class="btn-producto" onclick="abrirChat()">✦ Probar ahora — 5 consultas gratis</button>
+</div>
+<!-- ATENA Profesional -->
+<div class="producto-card profesional">
+<span class="producto-badge">⚡ Para Especialistas</span>
+<h3>ATENA Profesional</h3>
+<p>Asistente especializado para terapeutas, especialistas, docentes y profesionales del desarrollo humano.</p>
+<ul>
+<li>Apoyo en elaboración de informes</li>
+<li>Organización de registros y documentación</li>
+<li>Apoyo para planificación</li>
+<li>Consulta de procedimientos</li>
+<li>Automatización de tareas frecuentes</li>
+</ul>
+<a class="btn-producto" href="https://wa.me/51916471316" rel="noopener" target="_blank">Conocer más →</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════
+     MEMBRESÍAS
+══════════════════════════════════════ -->
+<section id="membresias">
+<div class="container">
+<div class="section-header fade-up">
+<span class="label">Programas de Membresía</span>
+<h2>Acompañamiento continuo y acceso preferente</h2>
+<p>Programas diseñados para brindar orientación especializada y acceso a recursos y servicios de ATENA.</p>
+</div>
+<div class="membresias-grid fade-up">
+<!-- Familiar -->
+<div class="membresia-card destacada">
+<div class="membresia-badge-top">Más popular</div>
+<div class="membresia-icon">👨‍👩‍👧</div>
+<h3>Membresía Familiar</h3>
+<p>Para familias que buscan acompañamiento continuo y orientación especializada.</p>
+<div class="membresia-precio">
+<div class="precio-valor">S/49.90</div>
+<div class="precio-periodo">mensuales</div>
+<div class="precio-nota">Cobertura hasta 3 integrantes</div>
+</div>
+<ul class="membresia-lista">
+<li>1 sesión mensual de seguimiento familiar</li>
+<li>17% de descuento en las primeras 4 sesiones terapéuticas del mes</li>
+<li>Biblioteca digital y recursos exclusivos</li>
+<li>Registro e historial de orientaciones</li>
+<li>Acceso a ATENA Conversa</li>
+<li>Acceso prioritario a nuevos recursos</li>
+</ul>
+<table class="tabla-tarifas">
+<thead>
+<tr><th>Servicio</th><th>Regular</th><th>Miembro</th></tr>
+</thead>
+<tbody>
+<tr><td>Terapia grupal</td><td>S/75.00</td><td class="precio-miembro">S/62.50</td></tr>
+<tr><td>Terapia individual</td><td>S/80.00</td><td class="precio-miembro">S/66.50</td></tr>
+</tbody>
+</table>
+<a class="btn btn-primary" href="https://wa.me/51916471316" rel="noopener" style="width:100%;justify-content:center" target="_blank">Conocer Membresía Familiar</a>
+</div>
+<!-- Profesional -->
+<div class="membresia-card">
+<div class="membresia-icon">💼</div>
+<h3>Membresía Profesional</h3>
+<p>Para terapeutas, psicólogos, especialistas, docentes y profesionales del desarrollo humano.</p>
+<div class="membresia-precio">
+<div class="precio-valor" style="font-size:1.4rem">Consultar</div>
+<div class="precio-periodo">precio personalizado</div>
+</div>
+<ul class="membresia-lista">
+<li>Acceso a ATENA Profesional</li>
+<li>Generación asistida de informes y programas</li>
+<li>Biblioteca técnica especializada</li>
+<li>Plantillas de informes, registros y seguimiento</li>
+<li>Recursos descargables de uso profesional</li>
+<li>Actualizaciones periódicas de materiales</li>
+<li>Acceso anticipado a nuevas herramientas</li>
+</ul>
+<a class="btn btn-secondary" href="https://wa.me/51916471316" rel="noopener" style="width:100%;justify-content:center" target="_blank">Conocer Membresía Profesional</a>
+</div>
+<!-- Institucional -->
+<div class="membresia-card">
+<div class="membresia-icon">🏛️</div>
+<h3>Membresía Institucional</h3>
+<p>Para colegios, centros especializados, consultorios y organizaciones vinculadas al aprendizaje.</p>
+<div class="membresia-precio">
+<div class="precio-valor" style="font-size:1.4rem">Consultar</div>
+<div class="precio-periodo">precio según institución</div>
+</div>
+<ul class="membresia-lista">
+<li>Acceso preferente a soluciones ATENA</li>
+<li>Capacitación para equipos de trabajo</li>
+<li>Recursos institucionales exclusivos</li>
+<li>Actualizaciones periódicas</li>
+<li>Acompañamiento técnico</li>
+<li>Prioridad en nuevos desarrollos</li>
+<li>Condiciones preferenciales en servicios</li>
+</ul>
+<a class="btn btn-secondary" href="https://wa.me/51916471316" rel="noopener" style="width:100%;justify-content:center" target="_blank">Solicitar información</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════
+     NOSOTROS
+══════════════════════════════════════ -->
+<section class="section-alt" id="nosotros">
+<div class="container">
+<div class="nosotros-inner">
+<div class="fade-up">
+<span class="label">Nosotros</span>
+<h2>Nuestra visión</h2>
+<p style="margin-bottom:20px">
+          ATENA nace con el propósito de transformar principios de aprendizaje en servicios, recursos, procedimientos, herramientas y sistemas aplicados que mejoren la vida de personas, familias, profesionales e instituciones.
+        </p>
+<p style="margin-bottom:32px">
+          Integramos atención especializada, producción de recursos, soluciones digitales y desarrollo tecnológico para construir un ecosistema de apoyo centrado en el aprendizaje humano.
+        </p>
+<div class="nosotros-valores">
+<div class="valor-card">
+<div class="valor-icon">🎯</div>
+<h4>Aplicado</h4>
+<p>Conocimiento que se convierte en acción concreta y observable.</p>
+</div>
+<div class="valor-card">
+<div class="valor-icon">🤝</div>
+<h4>Humano</h4>
+<p>Centrado en las personas, familias y sus contextos reales.</p>
+</div>
+<div class="valor-card">
+<div class="valor-icon">⚡</div>
+<h4>Tecnológico</h4>
+<p>Herramientas digitales al servicio del desarrollo humano.</p>
+</div>
+<div class="valor-card">
+<div class="valor-icon">📈</div>
+<h4>Integrado</h4>
+<p>Ecosistema completo: servicios, recursos y soluciones.</p>
+</div>
+</div>
+</div>
+<div class="nosotros-visual fade-up" style="transition-delay:.15s">
+<div class="nosotros-img">
+<img alt="ATENA — Visión institucional" loading="lazy" src="assets/soluciones.png?expires=1795468762&amp;signature=d25efc08bbad5e56d27e5921c9b0ce7cdae5adc8ca3b1156db7c621ee6cf3ae4&amp;kid=prod-250922"/>
+</div>
+<div class="nosotros-stat s1">
+<div class="stat-num">4</div>
+<div class="stat-label">Áreas de acción</div>
+</div>
+<div class="nosotros-stat s2">
+<div class="stat-num">3</div>
+<div class="stat-label">Modalidades de atención</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════
+     CTA BANNER
+══════════════════════════════════════ -->
+<div class="cta-banner fade-up">
+<div class="container">
+<h2>¿Necesitas orientación?</h2>
+<p>Nuestro equipo puede ayudarte a identificar necesidades, establecer objetivos y definir alternativas adaptadas a cada situación.</p>
+<a class="btn btn-lg" href="https://wa.me/51916471316" rel="noopener" style="background:white;color:#E85A5A;font-weight:700" target="_blank">💬 Contactar por WhatsApp</a>
+</div>
+</div>
+<!-- ══════════════════════════════════════
+     CONTACTO
+══════════════════════════════════════ -->
+<section id="contacto">
+<div class="container">
+<div class="contacto-inner">
+<div class="fade-up">
+<span class="label">Contacto</span>
+<h2>¿Cómo podemos ayudarte?</h2>
+<p style="margin-bottom:32px">Estamos disponibles para orientarte, brindarte información o acompañarte en el proceso que necesites.</p>
+<div class="contacto-canales">
+<a class="canal-item" href="https://wa.me/51916471316" rel="noopener" target="_blank">
+<div class="canal-icon">💬</div>
+<div class="canal-info">
+<h4>WhatsApp</h4>
+<p>+51 916 471 316</p>
+</div>
+</a>
+<a class="canal-item" href="https://www.youtube.com/@AtenaInstituto" rel="noopener" target="_blank">
+<div class="canal-icon">▶️</div>
+<div class="canal-info">
+<h4>YouTube</h4>
+<p>@AtenaInstituto</p>
+</div>
+</a>
+<a class="canal-item" href="https://www.instagram.com/atena_instituto/" rel="noopener" target="_blank">
+<div class="canal-icon">📸</div>
+<div class="canal-info">
+<h4>Instagram</h4>
+<p>@atena_instituto</p>
+</div>
+</a>
+</div>
+<div class="modalidades" style="margin-bottom:24px">
+<span class="modalidad"><span class="modalidad-dot"></span>Presencial</span>
+<span class="modalidad"><span class="modalidad-dot"></span>Virtual</span>
+<span class="modalidad"><span class="modalidad-dot"></span>Híbrida</span>
+</div>
+<div class="redes-contacto">
+<a class="red-icon-btn" href="https://www.youtube.com/@AtenaInstituto" rel="noopener" target="_blank" title="YouTube">▶</a>
+<a class="red-icon-btn" href="https://www.facebook.com/AtenaInstituto.pe" rel="noopener" target="_blank" title="Facebook">f</a>
+<a class="red-icon-btn" href="https://www.instagram.com/atena_instituto/" rel="noopener" target="_blank" title="Instagram">◎</a>
+<a class="red-icon-btn" href="https://www.linkedin.com/in/atena-instituto/" rel="noopener" target="_blank" title="LinkedIn">in</a>
+<a class="red-icon-btn" href="https://x.com/AtenaInstituto" rel="noopener" target="_blank" title="X">𝕏</a>
+<a class="red-icon-btn" href="https://www.pinterest.com/AtenaInstituto/" rel="noopener" target="_blank" title="Pinterest">P</a>
+</div>
+</div>
+<div class="cta-final fade-up" style="transition-delay:.15s">
+<h2>¿Necesitas orientación?</h2>
+<p>Escríbenos directamente. Nuestro equipo responde a la brevedad para ayudarte a encontrar la mejor alternativa.</p>
+<a class="btn btn-wa btn-lg" href="https://wa.me/51916471316" rel="noopener" style="width:100%;justify-content:center;margin-bottom:16px" target="_blank">💬 Contactar por WhatsApp</a>
+<button class="btn btn-ghost btn-lg" onclick="abrirChat()" style="width:100%;justify-content:center">✦ Probar ATENA Conversa</button>
+</div>
+</div>
+</div>
+</section>
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+<div class="container">
+<div class="footer-inner">
+<div class="footer-brand">
+<img alt="ATENA" src="assets/logo-atena.png?expires=1795468762&amp;signature=5f45c4284c1c1d28e9432c7aba178050264196ced2c3a56b04a8d804b23c7a1f&amp;kid=prod-250922"/>
+<p>Instituto de Aprendizaje Humano, Desarrollo y Tecnología Aplicada.</p>
+<div class="footer-redes">
+<a class="footer-red" href="https://www.youtube.com/@AtenaInstituto" rel="noopener" target="_blank" title="YouTube">▶</a>
+<a class="footer-red" href="https://www.facebook.com/AtenaInstituto.pe" rel="noopener" target="_blank" title="Facebook">f</a>
+<a class="footer-red" href="https://www.instagram.com/atena_instituto/" rel="noopener" target="_blank" title="Instagram">◎</a>
+<a class="footer-red" href="https://www.linkedin.com/in/atena-instituto/" rel="noopener" target="_blank" title="LinkedIn">in</a>
+<a class="footer-red" href="https://x.com/AtenaInstituto" rel="noopener" target="_blank" title="X">𝕏</a>
+<a class="footer-red" href="https://www.pinterest.com/AtenaInstituto/" rel="noopener" target="_blank" title="Pinterest">P</a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Servicios</h4>
+<ul>
+<li><a href="#servicios">Evaluación</a></li>
+<li><a href="#servicios">Intervención</a></li>
+<li><a href="#servicios">Acompañamiento Escolar</a></li>
+<li><a href="#servicios">Inclusión Educativa</a></li>
+<li><a href="#servicios">Familias</a></li>
+<li><a href="#servicios">Consultoría</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Recursos</h4>
+<ul>
+<li><a href="#recursos">Revista ATENA</a></li>
+<li><a href="https://www.youtube.com/@AtenaInstituto" rel="noopener" target="_blank">Canal Educativo</a></li>
+<li><a href="#recursos">Podcast</a></li>
+<li><a href="#recursos">Biblioteca Digital</a></li>
+<li><a href="#recursos">Publicaciones</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>ATENA</h4>
+<ul>
+<li><a href="#soluciones">Soluciones Digitales</a></li>
+<li><a href="#membresias">Membresías</a></li>
+<li><a href="#nosotros">Nosotros</a></li>
+<li><a href="#contacto">Contacto</a></li>
+<li><a href="https://wa.me/51916471316" rel="noopener" target="_blank">WhatsApp</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 ATENA — Instituto de Aprendizaje Humano, Desarrollo y Tecnología Aplicada</span>
+<span>Perú · +51 916 471 316</span>
+</div>
+</div>
+</footer>
+<!-- ══════════════════════════════════════
+     CHAT WIDGET — ATENA Conversa
+══════════════════════════════════════ -->
+<div class="chat-widget" id="chatWidget">
+<div class="chat-box" id="chatBox">
+<div class="chat-header">
+<div class="chat-avatar">✦</div>
+<div class="chat-header-info">
+<h4>ATENA Conversa</h4>
+<p>Asistente virtual · En línea</p>
+</div>
+</div>
+<div class="chat-limit-bar">
+<span id="limitText">5 consultas gratuitas disponibles</span>
+<div class="chat-limit-dots" id="limitDots">
+<div class="chat-dot"></div>
+<div class="chat-dot"></div>
+<div class="chat-dot"></div>
+<div class="chat-dot"></div>
+<div class="chat-dot"></div>
+</div>
+</div>
+<div class="chat-messages" id="chatMessages">
+<div class="msg bot">Hola, soy ATENA Conversa 👋 Puedo orientarte sobre aprendizaje, desarrollo, crianza y más. ¿En qué puedo ayudarte hoy?</div>
+</div>
+<div class="chat-typing" id="chatTyping">
+<span></span><span></span><span></span>
+</div>
+<div class="chat-input-area">
+<input autocomplete="off" id="chatInput" maxlength="500" placeholder="Escribe tu consulta..." type="text"/>
+<button class="chat-send-btn" id="chatSendBtn" onclick="enviarMensaje()">➤</button>
+</div>
+</div>
+<button aria-label="Abrir ATENA Conversa" class="chat-toggle" id="chatToggle" onclick="toggleChat()">✦</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
