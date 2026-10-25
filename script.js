@@ -7,7 +7,7 @@
    Reemplaza TU_URL_NGROK con tu URL de ngrok fija.
    Ejemplo: https://abc123.ngrok-free.app
    ─────────────────────────────────────────────── */
-const ATENA_API_URL = window.ATENA_CONFIG?.url || 'TU_URL_NGROK';
+const ATENA_API_URL = 'https://uncourteously-nongenetical-aniya.ngrok-free.dev' || 'TU_URL_NGROK';
 const ATENA_SECRET  = window.ATENA_CONFIG?.secret || 'sin-configurar'; // 
 const MAX_CONSULTAS = 5;               // ← Número de consultas gratuitas
 
