@@ -403,6 +403,10 @@ section { padding: 96px 0; }
   transition: var(--trans);
   color: var(--grafito);
 }
+.social-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.social-mark { width: 18px; height: 18px; display: inline-block; flex: 0 0 auto; fill: currentColor; }
+.red-icon-btn .social-mark, .footer-red .social-mark { width: 20px; height: 20px; }
+.canal-icon .social-mark { width: 24px; height: 24px; }
 .red-btn:hover { transform: translateY(-2px); box-shadow: var(--sombra); }
 .red-btn.yt:hover  { border-color: #FF0000; color: #FF0000; }
 .red-btn.fb:hover  { border-color: #1877F2; color: #1877F2; }
